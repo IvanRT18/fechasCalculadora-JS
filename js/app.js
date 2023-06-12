@@ -11,7 +11,7 @@ formDias.addEventListener("submit", (e) => {
     // console.log(nuevaFecha._i);
     newFecha.textContent = nuevaFecha.format("DD-MM-YYYY");
 
-    const fechaEscrita = moment(nuevaFecha._i).format("dddd, MMMM Do YYYY");
+    const fechaEscrita = moment(nuevaFecha).format("dddd, MMMM Do YYYY");
     // console.log(fechaEscrita);
     newFechaEscrita.textContent = fechaEscrita;
   } else {
